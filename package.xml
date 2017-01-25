@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<package>
+<package format="2">
   <name>um7</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description>The um7 package provides a C++ implementation of the CH Robotics serial protocol, and a
     corresponding ROS node for publishing standard ROS orientation topics from a UM7.
   </description>
 
-  <maintainer email="rbirac@cox.net">Alex Brown</maintainer>
+  <maintainer email="dgmiller@ncsu.edu">Daniel Miller</maintainer>
+  <maintainer email="tbaltovski@clearpathrobotics.com">Tony Baltovski</maintainer>  
   <author email="mpurvis@clearpathrobotics.com">Mike Purvis</author>
   <author email="rbirac@cox.net">Alex Brown</author>
   
@@ -15,13 +16,14 @@
   <!-- <url type="website">http://ros.org/wiki/um7</url> -->
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>serial</build_depend>
-  <build_depend>roscpp</build_depend>
-  <build_depend>sensor_msgs</build_depend>
+
+  <depend>serial</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+
   <build_depend>message_generation</build_depend>
-  <build_depend>roslint</build_depend>
-  <run_depend>serial</run_depend>
-  <run_depend>roscpp</run_depend>
-  <run_depend>sensor_msgs</run_depend>
-  <run_depend>message_runtime</run_depend>
+
+  <exec_depend>message_runtime</exec_depend>
+
+  <test_depend>roslint</test_depend>
 </package>
