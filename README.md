@@ -1,3 +1,26 @@
+## um7 (kinetic) - 0.0.4-0
+
+The packages in the `um7` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic um7 --new-track` on `Wed, 25 Jan 2017 05:48:59 -0000`
+
+The `um7` package was released.
+
+Version of package(s) in repository `um7`:
+
+- upstream repository: https://github.com/ros-drivers/um7
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.23`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.5.0`
+- vcstools version: `0.1.39`
+
+
 ## um7 (jade) - 0.0.4-0
 
 The packages in the `um7` repository were released into the `jade` distro by running `/usr/bin/bloom-release -r jade -t jade um7 --new-track` on `Wed, 25 Jan 2017 05:46:11 -0000`
