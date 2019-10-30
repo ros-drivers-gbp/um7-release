@@ -1,3 +1,26 @@
+## um7 (melodic) - 0.0.6-1
+
+The packages in the `um7` repository were released into the `melodic` distro by running `/usr/bin/bloom-release -r melodic -t melodic um7` on `Wed, 30 Oct 2019 14:23:04 -0000`
+
+The `um7` package was released.
+
+Version of package(s) in repository `um7`:
+
+- upstream repository: https://github.com/ros-drivers/um7
+- release repository: https://github.com/ros-drivers-gbp/um7-release.git
+- rosdistro version: `0.0.5-1`
+- old version: `0.0.5-1`
+- new version: `0.0.6-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.0`
+- catkin_pkg version: `0.4.14`
+- rosdep version: `0.17.1`
+- rosdistro version: `0.7.5`
+- vcstools version: `0.1.42`
+
+
 ## um7 (kinetic) - 0.0.6-1
 
 The packages in the `um7` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -r kinetic -t kinetic um7` on `Wed, 30 Oct 2019 14:12:25 -0000`
