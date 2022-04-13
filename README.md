@@ -1,3 +1,26 @@
+## um7 (noetic) - 0.0.6-3
+
+The packages in the `um7` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic um7` on `Wed, 13 Apr 2022 18:02:32 -0000`
+
+The `um7` package was released.
+
+Version of package(s) in repository `um7`:
+
+- upstream repository: https://github.com/ros-drivers/um7
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.0.6-2`
+- new version: `0.0.6-3`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## um7 (noetic) - 0.0.6-2
 
 The packages in the `um7` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic um7` on `Wed, 18 Aug 2021 16:43:26 -0000`
