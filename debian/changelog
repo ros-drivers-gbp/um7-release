@@ -1,0 +1,24 @@
+ros-noetic-um7 (0.0.6-3focal) focal; urgency=high
+
+  * Fix error of mag topic not publish
+  * Contributors: Nicolas SIMON
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Wed, 30 Oct 2019 04:00:00 -0000
+
+ros-noetic-um7 (0.0.5-3focal) focal; urgency=high
+
+  * Updated to be able to use MagneticField message.
+  * Added TravisCI badge to README.
+  * Updated TravisCI for Kinetic and Melodic.
+  * Fixed linter errors.
+  * Contributors: Tony Baltovski
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Fri, 27 Sep 2019 04:00:00 -0000
+
+ros-noetic-um7 (0.0.2-3focal) focal; urgency=high
+
+  Initial release of um7 driver.
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Fri, 20 Feb 2015 05:00:00 -0000
+
+
