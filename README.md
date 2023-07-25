@@ -1,3 +1,26 @@
+## umx_drver (humble) - 1.0.0-1
+
+The packages in the `umx_drver` repository were released into the `humble` distro by running `/usr/bin/bloom-release umx_drver -r humble -t humble` on `Tue, 25 Jul 2023 19:09:07 -0000`
+
+The `umx_driver` package was released.
+
+Version of package(s) in repository `umx_drver`:
+
+- upstream repository: https://github.com/ros-drivers/um7
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## um7 (noetic) - 0.0.7-1
 
 The packages in the `um7` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic um7` on `Thu, 14 Apr 2022 14:57:04 -0000`
