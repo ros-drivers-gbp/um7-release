@@ -1,0 +1,68 @@
+ros-humble-umx-driver (1.0.1-1jammy) jammy; urgency=high
+
+  * Added boost as a build_depend.
+  * Contributors: Tony Baltovski
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Wed, 26 Jul 2023 04:00:00 -0000
+
+ros-humble-umx-driver (1.0.0-1jammy) jammy; urgency=high
+
+  * Reverted versioning to continue where it left off
+  * Add instructions and update log for ros 2 version
+  * Fixed inclusion of serial library in CI
+  * Updated CI setup-ros tooling version
+  * Add github ci
+  * Setup custom tests
+  * Linting changes
+  * Updated test files
+  * Updating for ROS 2 Linting
+  * Updating to hpp file naming for linting
+  * Added UM6_driver
+  * Optimized for speed
+  * Update structure for separateUM6 and 7 nodes
+  * More detailed error message
+  * Setup for ROS 2 and UM7
+  * folder structure for new executable name
+  * folder structure for new package name
+  * Contributors: Hilary Luo
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Tue, 25 Jul 2023 04:00:00 -0000
+
+ros-humble-umx-driver (0.0.7-1jammy) jammy; urgency=high
+
+  * Add output in robot frame option (#26 <https://github.com/ros-drivers/um7/issues/26>)
+    * Correctly convert quaternion to ROS frame
+    * Rename tf_ned_to_enu to tf_ned_to_nwu
+    * Cleanup
+    * Update to handle two options
+    * lint
+    * Change indentation
+    * Fix formatting issues + add namespace to enum
+  * Contributors: Bianca Homberg
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Wed, 13 Apr 2022 04:00:00 -0000
+
+ros-humble-umx-driver (0.0.6-1jammy) jammy; urgency=high
+
+  * Fix error of mag topic not publish
+  * Contributors: Nicolas SIMON
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Wed, 30 Oct 2019 04:00:00 -0000
+
+ros-humble-umx-driver (0.0.5-1jammy) jammy; urgency=high
+
+  * Updated to be able to use MagneticField message.
+  * Added TravisCI badge to README.
+  * Updated TravisCI for Kinetic and Melodic.
+  * Fixed linter errors.
+  * Contributors: Tony Baltovski
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Fri, 27 Sep 2019 04:00:00 -0000
+
+ros-humble-umx-driver (0.0.2-1jammy) jammy; urgency=high
+
+  Initial release of um7 driver.
+
+ -- Daniel Miller <dgmiller@ncsu.edu>  Fri, 20 Feb 2015 05:00:00 -0000
+
+
