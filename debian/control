@@ -1,0 +1,12 @@
+Source: ros-jazzy-umx-driver
+Section: misc
+Priority: optional
+Maintainer: Daniel Miller <dgmiller@ncsu.edu>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-gtest <!nocheck>, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-rosidl-default-generators, ros-jazzy-sensor-msgs, ros-jazzy-serial, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/um7
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-umx-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-geometry-msgs, ros-jazzy-rclcpp, ros-jazzy-sensor-msgs, ros-jazzy-serial, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: The umx_driver package provides a C++ implementation of the CH Robotics serial protocol, and a corresponding ROS 2 node for publishing standard ROS orientation topics from a UM6 or UM7.
